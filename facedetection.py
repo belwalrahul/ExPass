@@ -48,7 +48,7 @@ def capPics():
 
 
     print(len(labels))
-    # vid = cv2.VideoCapture("C:/Users/belwa/Downloads/Hellrazr.mp4")
+    # vid = cv2.VideoCapture("")
     vid = cv2.VideoCapture(0)
     while True:
         _, frame = vid.read()
@@ -88,7 +88,7 @@ def prediction():
     vid = cv2.VideoCapture(0)
     while True:
         guessed_label = str(0)
-        #frame = cv2.imread("C:/users/rahul/desktop/opencv-face-recognition-python-master/test-data/test6.jpg")
+        #frame = cv2.imread("")
         #frame = cv2.resize(frame, (0,0), fx=0.5, fy=0.5)
 
         _, frame = vid.read()
